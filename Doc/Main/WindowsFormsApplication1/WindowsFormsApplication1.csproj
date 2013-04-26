@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C71E8DB-6B8C-41E9-B6B6-65BBFE148C08}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Root forms\Project\Project forms\ImagesS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\ImagesS.Designer.cs">
+      <DependentUpon>ImagesS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Root forms\CreateForm\ChooseFTPDir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Root forms\CreateForm\ChooseFTPDir.Designer.cs">
+      <DependentUpon>ChooseFTPDir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\DownloadToFTP%28BW%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\DownloadToFTP%28BW%29.Designer.cs">
+      <DependentUpon>DownloadToFTP%28BW%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\ChangeCSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\ChangeCSS.Designer.cs">
+      <DependentUpon>ChangeCSS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\CSS forms\ChooseCSSStyle%28Load%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\CSS forms\ChooseCSSStyle%28Load%29.Designer.cs">
+      <DependentUpon>ChooseCSSStyle%28Load%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\CSS forms\ChooseNameOfCSSStyle%28Save%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\CSS forms\ChooseNameOfCSSStyle%28Save%29.Designer.cs">
+      <DependentUpon>ChooseNameOfCSSStyle%28Save%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Root forms\OpenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Root forms\OpenForm.Designer.cs">
+      <DependentUpon>OpenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectEntity.cs" />
+    <Compile Include="Root forms\Project\Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Root forms\Project\Project.Designer.cs">
+      <DependentUpon>Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Root forms\CreateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Root forms\CreateForm.Designer.cs">
+      <DependentUpon>CreateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RootForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RootForm.Designer.cs">
+      <DependentUpon>RootForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\TreeOfProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Root forms\Project\Project forms\TreeOfProject.Designer.cs">
+      <DependentUpon>TreeOfProject.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Root forms\CreateForm\ChooseFTPDir.resx">
+      <DependentUpon>ChooseFTPDir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Root forms\Project\Project forms\DownloadToFTP%28BW%29.resx">
+      <DependentUpon>DownloadToFTP%28BW%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Root forms\Project\Project forms\ChangeCSS.resx">
+      <DependentUpon>ChangeCSS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Root forms\Project\Project forms\CSS forms\ChooseCSSStyle%28Load%29.resx">
+      <DependentUpon>ChooseCSSStyle%28Load%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Root forms\Project\Project forms\ImagesS.resx">
+      <DependentUpon>ImagesS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Root forms\Project\Project.resx">
+      <DependentUpon>Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Root forms\CreateForm.resx">
+      <DependentUpon>CreateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Root forms\Project\Project forms\CSS forms\ChooseNameOfCSSStyle%28Save%29.resx">
+      <DependentUpon>ChooseNameOfCSSStyle%28Save%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Root forms\OpenForm.resx">
+      <DependentUpon>OpenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RootForm.resx">
+      <DependentUpon>RootForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Root forms\Project\Project forms\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Root forms\Project\Project forms\TreeOfProject.resx">
+      <DependentUpon>TreeOfProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

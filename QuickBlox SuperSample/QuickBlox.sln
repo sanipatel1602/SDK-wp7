@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SDK", "SDK", "{F893BF5B-9CFA-49C5-BF07-61161B925B61}"
+	ProjectSection(SolutionItems) = preProject
+		SDK\QuickBloxSDK-Silverlight.dll = SDK\QuickBloxSDK-Silverlight.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBlox.SuperSample", "QuickBlox.SuperSample\QuickBlox.SuperSample.csproj", "{8B025FCB-66EF-4310-8934-E92D302456EF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.0.1:8080/tfs/quickblox
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = QuickBlox.SuperSample\\QuickBlox.SuperSample.csproj
+		SccProjectName1 = QuickBlox.SuperSample
+		SccLocalPath1 = QuickBlox.SuperSample
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B025FCB-66EF-4310-8934-E92D302456EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B025FCB-66EF-4310-8934-E92D302456EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B025FCB-66EF-4310-8934-E92D302456EF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8B025FCB-66EF-4310-8934-E92D302456EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B025FCB-66EF-4310-8934-E92D302456EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B025FCB-66EF-4310-8934-E92D302456EF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
